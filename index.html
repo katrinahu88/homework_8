@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<script src="https://kit.fontawesome.com/f569ccc368.js" crossorigin="anonymous"></script>
+	 <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+	<title> Katrina Hu</title>
+	<link rel="shortcut icon" type="image/jpg" href="assets/images/favicon.png"/>
+	<link href="assets/css/style.css" type="text/css" rel="stylesheet">
+</head>
+<body>
+
+	<!--Landing Page and nav bar-->
+	<header id="landing">
+			<!--Gradient-->
+			<canvas id="canvas-basic"></canvas>
+			<script src="https://cdnjs.cloudflare.com/ajax/libs/granim/2.0.0/granim.min.js"></script>
+			<script src="https://cdnjs.cloudflare.com/ajax/libs/granim/2.0.0/granim.js"></script>
+			<script src="assets/js/main.js"></script>
+			<!--Nav Bar-->
+			<ul id="nav">
+				<li> <a href="./index.html" id="logo">KATRINA HU</a>
+				<li style="float:right" class="page"><a href="./index.html">Resume</a>
+				<li style="float:right" class="page"><a href="./about.html">About</a>
+				<li style="float:right" class="page"><a href="./index.html">Work</a>
+			</ul>
+			<!--Landing Text-->
+			<div id="landingText">
+				<h4>USER EXPERIENCE DESIGNER</h3>
+				<h1>Katrina Hu</h1>
+				<p>Student @ Carnegie Mellon HCII</p>
+				<p>UX Design Intern @ Amazon</p>
+			</div>
+			<div class="icon" onclick="scrollToElement('project', 'center')">
+	        	<i class="fas fa-chevron-down"></i>
+	    	</div>
+	</header>
+
+	<!--Project 1-->
+	<br><br><br>
+	<section id="project">
+		<div id="projectText" data-aos="fade-right">
+			<h2>KACHOW</h2>
+			<h1>Food Ordering and Delivery System</h1>
+			<h3>UI Design</h3>
+			<p>Designing a system allowing restaurants to enter phone orders into mobile application and assign a delivery driver</p>
+			<button type="button" class="viewProjectButton">View Project</button>
+		</div>
+		<div id="project1Image" data-aos="fade-left">
+			<img src="assets/images/kachowCover.png" alt="Kachow Cover">
+		</div>
+	</section>
+
+	<!--Project 2-->
+	<section id="project">
+		<div id="project2Image" data-aos="fade-right">
+			<img src="assets/images/adidasCover.png" alt="Adidas Cover">
+		</div>
+		<div id="projectText" data-aos="fade-left">
+			<h2>IxDS PROJECT</h2>
+			<h1>Adidas Data-Driven Dashboard</h1>
+			<h3>UI/UX Design | Data Viz</h3>
+			<p>Designing a dashboard allowing Adidas executives to view information about the company and its competitors</p>
+			<button type="button" class="viewProjectButton">View Project</button>
+		</div>
+	</section>
+
+	<!--Project 3-->
+	<section id="project">
+		<div id="projectText" data-aos="fade-right">
+			<h2>CLASSINSIGHT</h2>
+			<h1>Teacher and Student Nonverbal Behavior Data Dashboard</h1>
+			<h3>UX Research | Data Viz</h3>
+			<p>Improving classroom learning by encouraging teacher immediacy behaviors through persuasive content and data design</p>
+			<a href="./classinsight.html"> 
+			<button type="button" class="viewProjectButton">View Project</button>
+			</a>
+		</div>
+		<div id="project3Image" data-aos="fade-left">
+			<img src="assets/images/classinsightCover.png" alt="ClassInSight Cover">
+		</div>
+	</section>
+	<br><br><br><br><br><br><br><br>
+
+	<!--footer-->
+	<footer class="footer">
+  		<div class="column">
+  			<h3>Let's connect! 🤝</h3>
+  			<p>LinkedIn | Resume | Email</p>
+  		</div>
+  		<div class="column">
+  			<h3>KATRINA HU</h3></div>
+  		<div class="column">Made with ❤️and 🍵</div>
+	</footer>
+
+	<!--AOS library and sets fade in duration for projects-->
+	<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+	<script>
+	    AOS.init(
+	    	{
+	    		duration: 1500
+	    	});
+	</script>
+</body>
+</html>
+</body>
+
+</html>

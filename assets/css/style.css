@@ -1,0 +1,314 @@
+html {
+    font-family: Arial;
+}
+
+* {
+	margin:0;
+	padding:0;
+}
+
+body {
+	margin: 0;
+}
+
+/*nav bar*/
+
+li {
+	display: inline;
+}
+
+a {
+	color: white;
+	display: inline;
+ 	text-align: center;
+ 	padding: 14px 16px;
+ 	text-decoration: none;
+}
+
+#aboutNav {
+	padding-top: 30px;
+	padding-bottom: 30px;
+	padding-left:5%; 
+	padding-right: 5%;
+	letter-spacing: 0.1em;
+	background-image: url("../images/background.jpg");
+}
+
+#nav {
+	padding-top: 30px;
+	padding-left:5%; 
+	padding-right: 5%;
+	letter-spacing: 0.1em;
+}
+
+
+#logo {
+	color: white;
+	letter-spacing: 0.2em;
+}
+
+#logo {
+	color: white;
+	letter-spacing: 0.2em;
+}
+
+
+/*words in nav bar get bolder when hovered over*/
+.page:hover {
+	font-weight: bold;
+	transition: all .3s ease;
+}
+
+
+
+/*Gradient background*/
+#canvas-basic {
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+}
+
+/*home page landing screen*/
+#landing{
+	height: 100vh;
+	background-size: cover;
+	background-position: center;
+}
+
+#landingText {
+	margin-top: 25vh;
+	color: white;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding: 0 20px;
+	line-height: 1.8;
+	text-align: center;
+}
+
+#landingText h1{
+	font-size: 100px;
+	line-height: 1.2;
+	margin: 40px;
+}
+
+#landingText h4{
+	font-size: 20px;
+	letter-spacing: 0.2em;
+}
+
+#landingText p{
+	font-weight: thin;
+	font-size: 18px;
+}
+
+/*down arrow on homepage*/
+.icon {
+	padding-top: 100px;
+	padding-left: 50%;
+	color: white;
+	font-size: 20px;
+}
+
+.icon:hover {
+	font-size: 30px;
+	transition: all .3s ease;
+}
+
+
+/*Home page projects*/
+#project {
+	margin-top: 150px;
+	display: flex;
+	margin-left: 15%;
+	margin-right: 15%;
+}
+
+#projectText {
+	padding-right: 10%;
+	line-height: 3.5;
+}
+
+#projectText h2 {
+	color: #A5A5A5;
+	font-size: 20px;
+	font-weight: normal;
+}
+
+#projectText h1 {
+	color: #595959;
+	font-size: 25px;
+	line-height: 1.2;
+}
+
+#projectText h3 {
+	color: #A49AB9;
+	font-size: 18px;
+	font-weight: normal;
+}
+
+#projectText p{
+	color: #A5A5A5;
+	font-size: 16px;
+	line-height: 1.5;
+}
+
+.viewProjectButton {
+	background-color: #F2F2F2;
+	border: none;
+	color: #595959;
+	text-align: center;
+	text-decoration: none;
+	font-size: 16px;
+	font-weight: bold;
+	padding: 10px 15px;
+	display: inline-block;
+	margin-top: 40px;
+	border-radius: 8px;
+}
+
+
+/*Home page projects button changes color and size when hovered*/
+.viewProjectButton:hover {
+	background-color: #A49AB9;
+	color: white;
+	padding: 13px 18px;
+	margin-left: 10px;
+	transition: all .3s ease;
+
+}
+
+#project2Image {
+	margin-right: 10%;
+}
+
+
+/*About page*/
+#about {
+	margin-top: 130px;
+	display: flex;
+	margin-left: 15%;
+	margin-right: 15%;
+}
+
+#aboutText {
+	padding-right: 10%;
+	line-height: 5.5;
+	color: #595959
+}
+
+#aboutText h1 {
+	line-height: 1.5;
+	font-size: 40px;
+	margin-bottom: 3vh;
+}
+
+#aboutText p {
+	line-height: 1.5;
+	margin-bottom: 3vh;
+	color: #929292;
+}
+
+.column {
+ 	float: left;
+ 	width: 33.33%;
+}
+
+
+/*ClassInsight*/
+#classLanding{
+	background-image: url("../images/Rectangle19.png");
+	height: 100vh;
+	background-size: cover;
+	background-position: center;
+}
+
+#classLandingText {
+	margin-top: 20vh;
+	color: white;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding: 0 20px;
+	line-height: 1.8;
+}
+
+#classLandingText h1{
+	font-size: 100px;
+	line-height: 1.2;
+	margin: 40px;
+}
+
+#classLandingText h4{
+	font-size: 20px;
+	letter-spacing: 0.2em;
+}
+
+#classLandingText p{
+	font-weight: thin;
+	font-size: 15px;
+}
+
+#classLand {
+	display: flex;
+	margin-left: 5%;
+	margin-right: 5%;
+}
+
+#classLandingImage {
+	margin-top: 140px;
+}
+
+.classinsight {
+	margin-top: 130px;
+	display: flex;
+	margin-left: 23%;
+	margin-right: 20%;
+	color: #595959
+}
+
+#classinsightTitle {
+	padding-right: 10%;
+	line-height: 3.5;
+}
+
+#classinsightText {
+	margin-left: 15%;
+	line-height: 3.8;
+}
+
+#classinsightText p {
+	line-height: 1.7;
+	color: #929292
+}
+
+#classinsightText h3 {
+	line-height: 2;
+}
+
+#classinsightImage {
+	display: flex;
+	justify-content: center;
+
+}
+
+/*Footer*/
+.footer {
+	background-color: #F2F2F2;
+	display: flex;
+	height: 20vh;
+	padding-left: 18%;
+	justify-content: center;
+	align-items: center;
+	color: #595959;
+}
+
